@@ -7,6 +7,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "core", "core", "{2ECCD4E6-E
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "app", "app\app.csproj", "{DB1B62EE-8A6F-41D3-99EC-CFF7066D17D1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "dap", "dap\dap.csproj", "{3687D831-A785-4204-B69A-835700F0ED73}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -17,12 +19,17 @@ Global
 		{DB1B62EE-8A6F-41D3-99EC-CFF7066D17D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DB1B62EE-8A6F-41D3-99EC-CFF7066D17D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DB1B62EE-8A6F-41D3-99EC-CFF7066D17D1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3687D831-A785-4204-B69A-835700F0ED73}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3687D831-A785-4204-B69A-835700F0ED73}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3687D831-A785-4204-B69A-835700F0ED73}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3687D831-A785-4204-B69A-835700F0ED73}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{DB1B62EE-8A6F-41D3-99EC-CFF7066D17D1} = {2ECCD4E6-E330-44C8-9587-AAFD6812E2D2}
+		{3687D831-A785-4204-B69A-835700F0ED73} = {2ECCD4E6-E330-44C8-9587-AAFD6812E2D2}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {4022C78D-1DA5-439B-8820-AF8190C41CA8}
